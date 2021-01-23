@@ -33,15 +33,18 @@
 <body>
   <div id="card">
     
-    <model-viewer ios-src="asset/dea.usdz" camera-controls>
     
+     <model-viewer src="asset/dea.glb"
+                  ios-src="asset/dea.usdz"
+                  alt="La Dea Madre"
+                  shadow-intensity="1"
+                  camera-controls
+                  interaction-prompt="auto"
+                  auto-rotate ar magic-leap>
     
     
     <!-- All you need to put beautiful, interactive 3D content on your site: -->
-    <model-viewer 
-                  ios-src="asset/dea.usdz"
-                  alt="La Dea Madre"
-                  camera-controls>
+    
                  
     </model-viewer>
     <section class="attribution">
